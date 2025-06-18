@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(120deg, #f6f8fa 0%, #e9eaf3 100%);
+    font-family: 'Tajawal', Arial, sans-serif;
+    direction: rtl;
+    transition: background 0.3s;
+}
+
+.dark-mode {
+    background: #181a1b !important;
+    color: #e4e6eb;
+}
+.dark-mode .card,
+.dark-mode .stat-box,
+.dark-mode .card-footer {
+    background: #23272f !important;
+    color: #e4e6eb !important;
+    border-color: #23272f !important;
+}
+.dark-mode .btn,
+.dark-mode .form-control {
+    background: #23272f !important;
+    color: #e4e6eb !important;
+    border-color: #444;
+}
+.dark-mode .badge.bg-secondary {
+    background: #444 !important;
+    color: #fff !important;
+}
+.dark-mode .bg-primary {
+    background: #0055ff !important;
+}
+
+.container-fluid {
+    max-width: 98vw;
+}
+
+.stat-box {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    padding: 18px 0 12px 0;
+    text-align: center;
+    font-size: 1.05em;
+    font-weight: 500;
+    margin-bottom: 8px;
+    min-height: 70px;
+    transition: background 0.3s;
+}
+.stat-box span {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #0055ff;
+}
+
+.card {
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.09);
+    border: none;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+.card:hover {
+    box-shadow: 0 6px 32px rgba(0,0,0,0.13);
+    transform: translateY(-4px) scale(1.02);
+}
+
+.ratio {
+    border-radius: 14px 14px 0 0;
+    overflow: hidden;
+    background: #222;
+}
+
+.stat-icon {
+    font-size: 1.1em;
+    margin-left: 5px;
+}
+
+.hashtags .badge {
+    font-size: 0.95em;
+    background: #e7e7e7;
+    color: #222;
+    margin-bottom: 2px;
+}
+
+.card-footer {
+    background: #f1f3f6;
+    border-top: none;
+    border-radius: 0 0 18px 18px;
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+input.form-control {
+    border-radius: 10px;
+    height: 48px;
+    font-size: 1.1em;
+}
+
+.sticky-top {
+    top: 16px;
+    z-index: 100;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #e9eaf3;
+}
+::-webkit-scrollbar-thumb {
+    background: #bfc4d1;
+    border-radius: 8px;
+}
